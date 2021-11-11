@@ -1,16 +1,16 @@
 html,body{
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 * {
     box-sizing: border-box;
 }
 .container-all{
+    height: 100%;
     min-width: 375px;
-    padding: 20px;
 }
 header{
     display: flex;
@@ -18,13 +18,14 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 header img{
     width: 150px;
     height: auto;
 }
 .btn-bg-white{
-    border: 1px solid hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
     background: none;
     padding: 5px 20px;
     border-radius: 25px;
@@ -38,4 +39,151 @@ header img{
 .btn-bg-pink{
     background-color: hsl(322, 100%, 66%);
     color: white;
+    padding: 10px 30px;
+}
+
+.intro-box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.h1-style{
+text-align: center;
+font-size: 26px;
+}
+.text-style{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 60px 0;
+    
+}
+
+.screen-mockups{
+    width: 100%;
+    margin-top: 80px;
+}
+.data-inf-box{
+    flex-direction: column;
+    display: flex;
+    height: 20%;
+    justify-content: space-evenly;
+}
+.data-inf-box img{
+    width: 50px;
+}
+
+.data-inf-box p {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+.data-inf-box span{
+    font-family: 'Open Sans', sans-serif;
+    color: #acacac;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+.section-first{
+    background-color: hsl(207, 100%, 98%);
+}
+.section-first .two-person{
+    width: 100%;
+background-color: hsl(207, 100%, 98%);
+
+
+}
+.section-first picture{
+    margin-top: 0;
+}
+.sc-top{
+    width: 100%;
+}
+.text-container{margin-top: 80px;}
+ .text-container-pale{
+     background-color: hsl(207, 100%, 98%);
+     margin: 0;
+     padding-top: 80px;
+ }
+
+
+ .section-second{
+     margin-top: 80px;
+ }
+ .section-third{
+     background-color: hsl(207, 100%, 98%);
+ }
+.sc-bottom{
+    width: 100%;
+}
+.section-fourth .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-fourth .text-container button{
+    margin:60px 0
+}
+
+.footer-text-container{
+    color: white;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -5px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-text-container .h1-style{
+    font-size: 24px;
+}
+.footer-text-container .text-style{
+    text-align: left;
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.ft-input{
+    align-self: flex-end;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ft-btn-bg-pink{
+    align-self: flex-end;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.ft-logo-cont{
+    display: flex;
+}
+.huddle-logo-white{
+    font-size: 40px;
+}
+.phone-email-box{
+    margin: 10px 0;
+}
+.phone-email-box span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.sm-box{
+    display: flex;
+    margin-top: 20px;
+}
+.sm-box img{
+    margin-right: 20px;
 }

@@ -53,13 +53,14 @@ header img{
 .h1-style{
 text-align: center;
 font-size: 26px;
+margin: 0 40px;
 }
 .text-style{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    margin: 60px 0;
+    margin: 60px 30px;
     
 }
 
@@ -105,7 +106,14 @@ background-color: hsl(207, 100%, 98%);
 .sc-top{
     width: 100%;
 }
-.text-container{margin-top: 80px;}
+.text-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
  .text-container-pale{
      background-color: hsl(207, 100%, 98%);
      margin: 0;
@@ -119,7 +127,10 @@ background-color: hsl(207, 100%, 98%);
  .section-third{
      background-color: hsl(207, 100%, 98%);
  }
-.sc-bottom{
+#sc-bottom{
+    width: 100%;
+}
+#ft-top{
     width: 100%;
 }
 .section-fourth .text-container{
@@ -186,4 +197,75 @@ background-color: hsl(207, 100%, 98%);
 }
 .sm-box img{
     margin-right: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    header{
+        padding: 60px;
+    }
+  .text-container .text-style{
+      width: 50%;
+      line-height: 20px;
+  }
+  .screen-mockups{
+      width: 590px
+  }
+
+.data-inf-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 590px;
+    margin: 60px 0;
+}
+.section-img-text-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.section-first{
+    width: 100%;
+}
+.illustr-size{
+    max-width: 450px;
+    margin-right: 80px;
+}
+
+.section-second{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.section-second .illustr-size{
+    margin-right: 0;
+    margin-left: 80px;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+} 
+
+.footer-section .text-style{
+    width: 53%;
+}
+
+
+.newsletter-container{
+    max-width: 50%;
+}
+.inp-cont{
+    display: flex;
+    width: 60%;
+}
+.inp-cont .ft-input{
+    margin-bottom: 0;
+    margin-right: 50px;
+}
 }
